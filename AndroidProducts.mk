@@ -14,8 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ancient_X00P.mk
+    $(LOCAL_DIR)/derpfest_X00P.mk
 
 COMMON_LUNCH_CHOICES := \
-    ancient_X00P-user \
-    ancient_X00P-userdebug
+    derpfest_X00P-user \
+    derpfest_X00P-userdebug \
+    derpfest_X00P-eng

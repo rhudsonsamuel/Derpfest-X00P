@@ -1,6 +1,6 @@
 #
-# Copyright (C) 2016 The Battle_EyE Project
-#               2017 The AncientOS Project
+# Copyright (C) 2016 The rhudsonsamuel Project
+#               2017 The DerpFest Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 
-# Inherit some common ancient stuff.
+# Inherit some common derpfest stuff.
 $(call inherit-product, vendor/derpfest/config/common_full_phone.mk)
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 720
